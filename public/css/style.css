@@ -1,0 +1,26 @@
+:root {
+    --main-padding: 30px;
+}
+
+header {
+    padding: var(--main-padding);
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: var(--main-padding);
+}
+
+canvas{
+    border-radius: 5px;
+    border: 1px solid rgb(55,73,86);
+}
+
+aside {
+    width: 20%;
+    margin-right: var(--main-padding);
+}
